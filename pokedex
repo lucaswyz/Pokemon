@@ -1,19 +1,27 @@
 programa
 {
+	inclua biblioteca Texto
 	funcao inicio()
 	{
-      inteiro num
-      cadeia nome
-	
+     inteiro num
+     cadeia res
+
 	escreva("POKEDÉX    ")
 	escreva("\n\nQual Pokémon você deseja pesquisar (informe o número):")
-	escreva("\nN° 79 - MANCETRIC")
-	escreva("\nN° 49 - HARIYAMA")
+	escreva("\nN° 079 - MANECTRIC")
+	escreva("\nN° 049 - HARIYAMA")
 	escreva("\nN° 122 - ALTARIA")
-	escreva("\n")
+	escreva("\nN° 009 - SWAMPERT")
+	escreva("\nN° 068 - SABLEYE")
+	escreva("\nN° 099 - WAILMER")
+	escreva("\n   000 - SAIR")
+	escreva("\n\n")
      leia(num)
 
-     se(num == 79){
+	se(num == 0 ou num == 00 ou num == 000){
+		escreva("SAINDO DA POKEDEX")
+	}
+     se(num == 79 ou num == 079){
      	escreva("\nMANECTRIC")
      	escreva("\n\n@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.")           
           escreva("\n@@@@@@@@@@@@@@@@ .,@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.")            
@@ -46,8 +54,8 @@ programa
           escreva("\n@@@@@@@@@@@&@@@@@.&.@#,,@@%@@@@@@@@@@@@@@@@@@@@@@@@@.") 
 
           escreva("\n\nEle estimula seus próprios músculos com eletricidade, \npara que possa se mover rapidamente. \nEle alivia sua dor com eletricidade, também, para que possa se recuperar rapidamente também.")
-     	escreva("\n\nAltura: 1.5 metros \nPeso: 40.2 kg \nGênero: Macho/Fêmea \nCategoria: Descarga \nHabilidades: Estático/Pára-raios")
-     	escreva("\nTipo: Elétrico \nFraqueza: Terra")
+     	escreva("\n\nAltura: 1,5 metros \nPeso: 40,2 kg \nGênero: Macho/Fêmea \nCategoria: Descarga \nHabilidades: Estático/Pára-raios")
+     	escreva("\nTipo: Elétrico \nFraqueza: Terrestre")
      	
      	escreva("\n\nSTATUS \nHP: 5/15")
      	escreva("\nAttack: 5/15")
@@ -58,9 +66,9 @@ programa
           escreva("\n")
 
 		escreva("\nRegressão: ELECTRIKE")
-		escreva("\nEvolução: Não tem\n")
+		escreva("\nEvolução: MAX.\n")
         }
-        se(num == 49){
+        senao se(num == 49 ou num == 049){
         	escreva("\nHARIYAMA\n")
           escreva("@@@@@@@@@@@@@@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")   
           escreva("\n@@@@@@@@@@@@@,,,,,,,@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")   
@@ -94,7 +102,7 @@ programa
 
 
           escreva("\n\nAdora desafiar os outros para testes de força. Tem o poder de parar um trem com um tapa.")
-     	escreva("\n\nAltura: 2.3 metros \nPeso: 253.8 kg \nGênero: Macho/Fêmea \nCategoria: Impulso de braço \nHabilidades: Tripas/Gordura Grossa")
+     	escreva("\n\nAltura: 2,3 metros \nPeso: 253,8 kg \nGênero: Macho/Fêmea \nCategoria: Impulso de braço \nHabilidades: Tripas/Gordura Grossa")
      	escreva("\nTipo: Lutador \nFraqueza: Psíquico/Voador/Fada")
      	
      	escreva("\n\nSTATUS \nHP: 9/15")
@@ -106,7 +114,200 @@ programa
           escreva("\n")
 
 		escreva("\nRegressão: MAKUHITA")
-		escreva("\nEvolução: Não tem\n")                                      
+		escreva("\nEvolução: MAX.\n")                                    
+        }
+        senao se(num == 122){
+
+		escreva("\nSWABLU")
+          escreva("\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&@@@@@@@@@@@@")       
+          escreva("\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@...%@@@@@**#@@@@@@(....@@@@@@@@@@@@@@")       
+          escreva("\n@@@@@@@@@@@@@@@@@@@@@@@@,.,@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")       
+          escreva("\n@@@@@@@@@@@@@@@@@@@@@@&,,,@@@@&***,,,,,,*@@@@@@@@@@@@@@@@@@@@@@@@")       
+          escreva("\n@@@@@@@@@@@@@@@@@@@@@@@,,@@*/*@@@@@@@@@@*,,,,@@@@@@@@@@@@@@@@@@@@")       
+          escreva("\n@@@@@@@@@@@@@@@@@@@@@@&...,*@@@@@@@@@@@@@@@@@@,,@@@@@@@@@@@@@..@@")       
+          escreva("\n(((((((((@@@@@@@@@@(.....,,,,,,@@@@@@@@@@@@@@@@@@@*@@@@@/,,,.@@@@")       
+          escreva("\n((((((((((((@@@@@@*.,,,,,,(*,,,*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")       
+          escreva("\n((((((((((((((@@@@ #( .#,,%,(/,#@@@@@@@((((((((@@@@@@@@@@@@@@@@@@")       
+          escreva("\n(((((((((((((((((&@@@*&#@*/...#@@@@@@(((((((((((((@@@@@@@@@@@@@@@")       
+          escreva("\n((((((((((        (( &*******@@&((((((((((((((((((((((%@@@@@@@@@@")       
+          escreva("\n((((((((             #*****&  *#((((((#,       (((((((((((((((((&")       
+          escreva("\n((((((              %,,,,*%....*                .#(((((((((((((((")       
+          escreva("\n((((/              ,,,,,,(... ,                   ...#(((((((((((")       
+          escreva("\n(#              .,,,,,,,,/                           .(((((((((((")       
+          escreva("\n#             */**,,,,,,,                           .. ((((((((((")       
+          escreva("\n(               .***      *                        ...#((((((((((")      
+          escreva("\n(                                                 ...*(((((((((((")     
+          escreva("\n((                                               ..../(((((((((((")       
+          escreva("\n,.                                             .....(((((((((((((")       
+          escreva("\n..                                          .......((((((((((((((")       
+          escreva("\n(*...  ..                         .  ............. ((((((((((((((")       
+          escreva("\n@@@@%,.....                    ..................  ((((((((((((((")       
+          escreva("\n@@&****& .................,#.*(/%................/(((((((((((((((")       
+          escreva("\n@@@@@@@*&@(((...............@***#........... *(((((#@@@@@@@@@@@@@")       
+          escreva("\n@@@@@@@@@@@@((((#* .,((((((#(&/&*( . *(/@//@@///@@@@@@@@@@@@@@@@@")       
+          escreva("\n@@@@@@@@@@@@((((((((((((((((@@@@//@&/&@//@///@@@/***@@@@@@@@@@@@@")       
+          escreva("\n@@@@@@@@@@@@(((((((((((((((@@@@@**(@*/@#*/@@/#@@@@@,,,,*@@@@@@@@@")       
+          escreva("\n@@@@@@@@@@@@(((((((((((((@@@@@@@%,,@@@@@@@@@@@@@@@@@@@.,@@@@@@@@@")    
+
+        	escreva("\n\nSe ele se ligar a uma pessoa, envolverá gentilmente o amigo com suas asas macias e cantarolará.")
+     	escreva("\n\nAltura: 1,1 metros \nPeso: 20,6 kg \nGênero: Macho/Fêmea \nCategoria: Cantarolar \nHabilidades: Cura Natural")
+     	escreva("\nTipo: Dragão/Voador \nFraqueza: Fada/Dragão/Gelo/Pedra")
+     	
+     	escreva("\n\nSTATUS \nHP: 5/15")
+     	escreva("\nAtaque: 5/15")
+     	escreva("\nDefesa: 6/15")
+          escreva("\nAtaque Especial: 5/15")
+          escreva("\nDefesa Especial: 7/15")
+          escreva("\nVelocidade: 5/15")
+          escreva("\n")
+
+		escreva("\nRegressão: SWABLU")
+		escreva("\nEvolução: MAX.\n")  
+        }
+
+        senao se(num == 9 ou num == 09 ou num == 009){
+        	escreva("\nSWAMPERT")
+        	escreva("\n@@@@@@@@@@@@@@@@@*###%#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")   
+          escreva("\n@@@@@@@@@@@@@@@/########@@@@@@@@@/####&###@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")   
+          escreva("\n@@@@@@@@@@@@@@(@######&##@@@@@/&##########@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")   
+          escreva("\n@@@@@@@@@@@@@@&%###%#####(@@/#############@@@@@@&(((((@@@@@@@@@@@@@@@@@@@")   
+          escreva("\n@@@@@@@@@@@@@@@/####%#(%((/(#####&######@@@@@@@@(((((((%@@@@@@@@@@@@@@@@@")   
+          escreva("\n@@@@@@@@@@@@@@@######%**//#####(((&((@@@@@@@@@(((((((&(((@@@@@@@@@@@@@@@@")   
+          escreva("\n@@@@@@@@@@@@@@@@/(##*****/(#@//*/****%@@@@@@@@@#(((((((((((%@@@@@@@@@@@@@")   
+          escreva("\n@@@@@@@@@@@@@/ ,*.#****/&,@***(,,,,,,,..,*(@@@/#((((((((((((%@@@@@@@@@@@@")   
+          escreva("\n@@@@@@@@@@@@@@@,,*(*****/***%%..,,,,,*/@@@@@@@##((((&(((#####@@@@@@@@@@@@")   
+          escreva("\n@@@@@@@@@@(#%&%&&#*/*@*********,.,,..,%//@@@@###(((##########%@@@@@@@@@@@")   
+          escreva("\n@@@@@@@@@@@@@@@@@@@/*%&,,,,#.,,,,,,,*****///%&######&,*####&##%@@@@@@@@@@")   
+          escreva("\n@@@@@@@@@@@@@@@@(***////#@@@@.,,,,/&*******/********/*//####(((@@@@@@@@@@")   
+          escreva("\n@@@@@@@@@@@@@@/****/@@@@@@@@@@@ .  . /******/@********/*/%####(@@@@@@@@@@")   
+          escreva("\n@@@@@@@@@@..,,,***@@@@@@@@@@@@@@ . ....*(,.*@/(**********&%%%%%@@@@@@@@@@")   
+          escreva("\n@@@@@@@@,,,******@@@@@@@@@@@/////.. .....,,**/***********/,,(.,@@@@@@@@@@")   
+          escreva("\n@@@@%********/@@@@@@@@@@******///#,,,,,,.,****,,&**********(*,,,,%@@@@@@@")   
+          escreva("\n@(,*/*,*,*,*@@@@@@@@@@@******/////(@#***.*/**(,,,,*,,*********(***,@@@@@@")   
+          escreva("\n@@&/**/@***/@@@@@@@@@#,*****//&@@,***/*******#%%%%%&%******/**//*/*%@@@@@")   
+          escreva("\n@@@@@@@@@@@@@@@@@@((&//**%@@@@@@*,*&@/,,*@****@@%#%%&%%%%(//**/*******@@@")   
+          escreva("\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&**,*******@")   
+          escreva("\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#/*/////&")  
+
+          escreva("\n\nSwampert é muito forte. Tem força suficiente para arrastar facilmente uma pedra de mais de uma tonelada. Este Pokémon também possui uma visão poderosa que o permite enxergar mesmo em águas turvas.")
+     	escreva("\n\nAltura: 1,5 metros \nPeso: 81,9 kg \nGênero: Macho/Fêmea \nCategoria: Peixe de lama \nHabilidades: Torrent")
+     	escreva("\nTipo: Água/Terrestre \nFraqueza: Grama")
+     	
+     	escreva("\n\nSTATUS \nHP: 6/15")
+     	escreva("\nAtaque: 7/15")
+     	escreva("\nDefesa: 6/15")
+          escreva("\nAtaque Especial: 5/15")
+          escreva("\nDefesa Especial: 6/15")
+          escreva("\nVelocidade: 4/15")
+          escreva("\n")
+
+		escreva("\nRegressão: MUDKIP -> MARSHTOMP ")
+		escreva("\nEvolução: MAX.\n")
+        }
+
+        senao se(num == 68 ou num == 068){
+        	
+          escreva("\nSABLEYE")
+          escreva("\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")   
+          escreva("\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")   
+          escreva("\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")   
+          escreva("\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@(####@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#*@@@")   
+          escreva("\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@(####@##@#///(((((/@@@@@@@@@@@@@@@@@@@./#@@@@")   
+          escreva("\n@@@@@@@@@@@@@@@@@@@@@@@@@@@/##@*..,///(((((((((((((@@@@@@@@@@@@.((((@@@@@")   
+          escreva("\n@@@@@@@@@@@@@@@@@@@@@@@@@@@#////////(((((((((((((((((/@@@@@@@(((((%@@@@@@")   
+          escreva("\n@@@@@@@@@@@@@@@@@@@@@@@@@@.*,. ///(((((((((((((((((((((/(@(((((((@@@@@@@@")   
+          escreva("\n@@@@@@@@@@&////((((((###&   @(/%/(((((((#.   ...@(((((((((((((((@@@@@@@@@")   
+          escreva("\n@@@@#/#////////////((###      .(*((////( %,,,,.  ..(((((((((((/@(/(@@@@@@")   
+          escreva("\n@@/(%//((@/(((####@@@@@@(@**, %*(((////  %,..,,/  /(((((((((////(@@@@@@@@")   
+          escreva("\n&&@,,@.%(##%@@@@@@@@@@@@@@@&///*(((///(,,,,...,   (((((((((//(#@@@@@@@@@@")   
+          escreva("\n@@@,(@@@@@@@@@@@@@@@@@@@@@@######(((((((#&.%,,.(#######&##(##@@@@@@@@@@@@")   
+          escreva("\n@@@,(@@@@@@@@@@@@@@@@@@@@@@@@#######################@%%%%%%%%%#@@@@@@@@@@")   
+          escreva("\n@@@,(@@@@@@@@@@@@@@@@@@@@@@@@@@@#############&@#%%%%%%%#&%%%#((////@@@@@@")   
+          escreva("\n@@@,(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&%%#/*&%%%%%@@@@@%///////(@@@")   
+          escreva("\n@@@,(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%&(((*%%%%%%@/////////####(@")   
+          escreva("\n@@@,(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//(((*,@(((#/////////@@@@@@@@@")   
+          escreva("\n@@@,(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@/////////////&/////////(@@@@@@@@@@@")   
+          escreva("\n@@@,(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@((///((((((##%#/(@//(&//(@@@@@@@@@@@@")   
+          escreva("\n@@@,(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&#####@@@@@@##/@&@/&/%/@@@@@@@@@@@@@")   
+          escreva("\n@@@,(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%@@@@@ /@@@//////@@@@@@@@@@@@")   
+          escreva("\n@@@,(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%@@@@@@@@@@@######@@@@@@@@@@@@")   
+          escreva("\n@@@,(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@@(@@@@@@@@@@@@@######@@@@@@@@@@@@")   
+          escreva("\n@@@,(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@######@@@@@@@@@@@@@")   
+          escreva("\n@@@,(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#######@@@@@@@@@@@@@")   
+          escreva("\n@@@,(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(@@@(@@@@@@@@@@@@@") 
+
+		escreva("\n\nEle habita na escuridão das cavernas. Ele usa suas garras afiadas para desenterrar pedras preciosas para se alimentar.")
+     	escreva("\n\nAltura: 0,5 metros \nPeso: 11,0 kg \nGênero: Macho/Fêmea \nCategoria: Escuridão \nHabilidades: Olho Aguçado/Stall")
+     	escreva("\nTipo: Sombrio/Fantasma \nFraqueza: Fada")
+     	
+     	escreva("\n\nSTATUS \nHP: 3/15")
+     	escreva("\nAtaque: 5/15")
+     	escreva("\nDefesa: 5/15")
+          escreva("\nAtaque Especial: 4/15")
+          escreva("\nDefesa Especial: 4/15")
+          escreva("\nVelocidade: 3/15")
+          escreva("\n")
+ 
+		escreva("\nRegressão: MIN.")
+		escreva("\nEvolução: MAX.\n")
+	   }
+	   senao se(num == 99 ou num == 099){
+
+	   	escreva("\nWAILMER")
+	     escreva("\n&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&@@&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&")   
+          escreva("\n&&&&&&&&&&&&&&&&&&&&%*//((((((((#########(//&&&&&&&&&&&&&&&&&&&&&&&&&&&&&")   
+          escreva("\n&&&&&&&&&&&&&&&&//(#(((((((((((########%#######((&&&&&&&&&&&&&&&&&&&&&&&&")   
+          escreva("\n&&&&&&&&&&&&&&*/(####((((((#####%#################(#&&&&&&&&&&&&&&&&&&&&&")   
+          escreva("\n&&&&&#//(((((%#((((############%#%#######%#######%###(&&&&&&&&&&&&&&&&&&&")   
+          escreva("\n#/((#######(# # ,.#%###%###############################(&&&&&&&&&&&&&&&&&")   
+          escreva("\n&/(#######%#  #         # / .. . .(.*.&%%######%#####%%##&&&&&&&&&&&&&&&&")   
+          escreva("\n&&&&######&       ,%      % ( *&   ...... %###############((&&&&&&&&&&&&&")   
+          escreva("\n&&&&&&&&%&        ,        .      ...........%&##((((((########(&&&&&&&&&")   
+          escreva("\n&&&&&&&&&        (         /       ..........  (####((#########%((/%&&&&&")   
+          escreva("\n&&&&&&&&&        ,         ,       ........... (####((##########(/&***%&&")   
+          escreva("\n&&&&&&&&&&       .                 ............///((%(######@(/////*(**(&")   
+          escreva("\n&&&&&&&&&&*.     /               ..............#//***///////*%////*//&(&&")   
+          escreva("\n&&&&&&&&&&&&      .             .................%##((********%//////#&&&")   
+          escreva("\n&&&&&&&&&&&&&@               ../....................  .%(((///(###&&&&&&&")   
+          escreva("\n&&&&&&&&&&&&&&&&(   #    .......  .............      &&&&&&&&&&&&&&&&&&&&")   
+          escreva("\n&&&&&&&&&&&&&&&&&&&@  ,............#............  #&&&&&&&&&&&&&&&&&&&&&&")   
+          escreva("\n&&&&&&&&&&&&&&&&&&&&&&&&&*/  .......... (*,/. %&&&&&&&&&&&&&&&&&&&&&&&&&&")
+
+          escreva("\n\nEle se mostra borrifando jatos de água do mar das narinas acima dos olhos. Ele come uma tonelada sólida de Wishiwashi todos os dias.")
+     	escreva("\n\nAltura: 2,0 metros \nPeso: 130,0 kg \nGênero: Macho/Fêmea \nCategoria: Baleia Bola \nHabilidades: Desatento/Véu de Água")
+     	escreva("\nTipo: Água \nFraqueza: Grama/Elétrico")
+     	
+     	escreva("\n\nSTATUS \nHP: 8/15")
+     	escreva("\nAtaque: 5/15")
+     	escreva("\nDefesa: 3/15")
+          escreva("\nAtaque Especial: 5/15")
+          escreva("\nDefesa Especial: 3/15")
+          escreva("\nVelocidade: 4/15")
+          escreva("\n")
+ 
+		escreva("\nRegressão: MIN.")
+		escreva("\nEvolução: WAILORD\n")
+	   }
+	   senao{
+	    escreva("POKÉMON NÃO ENCONTRADO")
+	   }
+	   escreva("\nDeseja pesquisar outro pokemon?")
+	   leia(res)
+
+	   se(res == "Sim" ou res == "sim" ou res == "SIM"){
+	   	escreva("\n\nQual Pokémon você deseja pesquisar (informe o número):")
+	     escreva("\nN° 079 - MANECTRIC")
+	     escreva("\nN° 049 - HARIYAMA")
+	     escreva("\nN° 122 - ALTARIA")
+	     escreva("\nN° 009 - SWAMPERT")
+	     escreva("\nN° 068 - SABLEYE")
+	     escreva("\nN° 099 - WAILMER")
+	     escreva("\n   000 - SAIR")
+	     escreva("\n\n")
+          leia(num)
+	   }
+	   senao{
+	   	escreva("Saindo da Pokedex")
+	   }
     }
-	}
 }
