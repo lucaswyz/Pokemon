@@ -21,7 +21,23 @@
       escreva("@,******(***,.......... ,&%********************/., ............@@@@@@\n")       
       escreva("@@@@@@***/@//#............... *******************,,,,........@@@@@@@@\n")       
       escreva("@@@@@@@%@@@@@@@...............(/**/((/(/**@/////,,,,,,,,,,.@@@@@@@@@@\n")       
-      escreva("@@@@@@@@@@@@@@@@@////..,,,,,.,&//////////@///////.,.*@&./@@@@@@@@@@@@\n")       
+      escreva("@@@@@@@@@@@@@@@@@////..,,,,,.,&//////////@///////.,.*@&./@@@@@@@@@@@@\n") 
+
+
+escreva("\n\nA barbatana na cabeça de Mudkip funciona como um radar altamente sensível. Usando esta nadadeira, Mudkip para sentir os movimentos da água e do ar, este Pokémon pode determinar o que está acontecendo ao seu redor sem usar seus olhos.")
+     	escreva("\n\nAltura: 0,4 metros \nPeso: 7,6 kg \nGênero: Macho/Fêmea \nCategoria: Peixe de Lama \nHabilidades: Torrent")
+     	escreva("\nTipo: WATER \nFraqueza: GRAMA/ELÉTRICO")
+     	
+     	escreva("\n\nSTATUS \nHP: 50")
+     	escreva("\nAttack: 70")
+     	escreva("\nDefense: 50")
+          escreva("\nSpecial Attack: 50")
+          escreva("\nSpecial Defense: 50")
+          escreva("\nSpeed: 40")
+          escreva("\n")
+
+		escreva("\nRegressão: MIN.")
+		escreva("\nEvolução: MARSHTOMP --> SWAMPERT.\n")
       escreva("@@@@@@@@@@@@@@@@@@**///,,,,,,,,(////////////////.,,,,.@@@@@@@@@@@@@@@\n")       
       escreva("@@@@@@@@@@@@@@@@@@%******/@@*...*******//@@////@..@@@@@@@@@@@@@@@@@@@\n")       
       escreva("@@@@@@@@@@@@@@@@@@@******@@@@@@@*******///////@@@@@@@@@@@@@@@@@@@@@@@\n")       
