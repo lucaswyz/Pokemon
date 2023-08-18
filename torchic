@@ -26,7 +26,22 @@
       escreva("@@@@@@@@@@@@@@@@@@%******/@@*...*******//@@////@..@@@@@@@@@@@@@@@@@@@\n")       
       escreva("@@@@@@@@@@@@@@@@@@@******@@@@@@@*******///////@@@@@@@@@@@@@@@@@@@@@@@\n")       
       escreva("@@@@@@@@@@@@@@@@@@@&*(*@@@@@@@@@******/@@@/@@@@@@@@@@@@@@@@@@@@@@@@@@\n")      
-      escreva("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&***(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n")     
+      escreva("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&***(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n") 
+
+escreva("\n\nTorchic fica com seu treinador, seguindo atrás com passos instáveis. Este Pokémon exala fogo de mais de 1.800 graus Fahrenheit, incluindo bolas de fogo que deixam o inimigo preto de queimado.")
+     	escreva("\n\nAltura: 0,4 metros \nPeso: 2,5 kg \nGênero: Macho/Fêmea \nCategoria: Pintinho \nHabilidades: Chama")
+     	escreva("\nTipo: FOGO \nFraqueza: ÁGUA/TERRA/ROCK")
+     	
+     	escreva("\n\nSTATUS \nHP: 45")
+     	escreva("\nAttack: 60")
+     	escreva("\nDefense: 40")
+          escreva("\nSpecial Attack: 70")
+          escreva("\nSpecial Defense: 50")
+          escreva("\nSpeed: 45")
+          escreva("\n")
+
+		escreva("\nRegressão: MIN.")
+		escreva("\nEvolução: COMBUSKEN --> BLAZIKEN.\n")
                                                                                 
   
 Send us your most beautiful results!
